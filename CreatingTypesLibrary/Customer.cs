@@ -19,10 +19,7 @@ namespace CreatingTypesLibrary
 
         public void GetInfo()
         {
-            ConsoleColor consoleColor = Console.ForegroundColor;
-            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"\nCustomer name: {Name}\nAdress: {Adress}\nBalance: {Balance:C2}, money spent: {Spent:C2}\n");
-            Console.ForegroundColor = consoleColor;
         }
     }
 }

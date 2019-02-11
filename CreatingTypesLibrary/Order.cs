@@ -14,21 +14,11 @@ namespace CreatingTypesLibrary
                 customer.Balance -= priceWithDiscount;
                 customer.Spent += priceWithDiscount;
 
-                ConsoleColor consoleColor = Console.ForegroundColor;
-                Console.ForegroundColor = ConsoleColor.Green;
-
                 Console.WriteLine($"Customer {customer.Name} bought {product.Name} made in {product.Manufacturer} for {priceWithDiscount:C2} and discount = {discount:P2}.\nProduct({product.Name}) sent to the address {customer.Adress}");
-
-                Console.ForegroundColor = consoleColor;
             }
             else
             {
-                ConsoleColor consoleColor = Console.ForegroundColor;
-                Console.ForegroundColor = ConsoleColor.Green;
-
                 Console.WriteLine($"There is not enough funds on the {customer.Name}'s balance.");
-
-                Console.ForegroundColor = consoleColor;
             }
         }
 

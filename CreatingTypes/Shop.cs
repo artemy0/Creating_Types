@@ -21,24 +21,15 @@ namespace CreatingTypes
         //Displays all values of users or products.
         public void GetAllProducts()
         {
-
-            ConsoleColor consoleColor = Console.ForegroundColor;
-            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine();
-
             foreach (Product item in products)
                 item.GetInfo();
-
-            Console.ForegroundColor = consoleColor;
         }
         public void GetAllCustomers()
         {
-            ConsoleColor consoleColor = Console.ForegroundColor;
-            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine();
             foreach (Customer item in customers)
                 item.GetInfo();
-            Console.ForegroundColor = consoleColor;
         }
 
         //Getting a user or product object.

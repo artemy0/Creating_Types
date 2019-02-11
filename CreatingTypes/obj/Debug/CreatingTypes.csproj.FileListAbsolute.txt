@@ -18,3 +18,13 @@ C:\Users\Artsem\OneDrive\Рабочий стол\CreatingTypes\CreatingTypes\obj
 C:\Users\Artsem\OneDrive\Рабочий стол\CreatingTypes\CreatingTypes\obj\Debug\CreatingTypes.csproj.CopyComplete
 C:\Users\Artsem\OneDrive\Рабочий стол\CreatingTypes\CreatingTypes\obj\Debug\CreatingTypes.exe
 C:\Users\Artsem\OneDrive\Рабочий стол\CreatingTypes\CreatingTypes\obj\Debug\CreatingTypes.pdb
+C:\Users\Artsem\OneDrive\Рабочий стол\(Task)CreatingTypes\CreatingTypes\CreatingTypes\bin\Debug\CreatingTypes.exe.config
+C:\Users\Artsem\OneDrive\Рабочий стол\(Task)CreatingTypes\CreatingTypes\CreatingTypes\bin\Debug\CreatingTypes.exe
+C:\Users\Artsem\OneDrive\Рабочий стол\(Task)CreatingTypes\CreatingTypes\CreatingTypes\bin\Debug\CreatingTypes.pdb
+C:\Users\Artsem\OneDrive\Рабочий стол\(Task)CreatingTypes\CreatingTypes\CreatingTypes\bin\Debug\CreatingTypesLibrary.dll
+C:\Users\Artsem\OneDrive\Рабочий стол\(Task)CreatingTypes\CreatingTypes\CreatingTypes\bin\Debug\CreatingTypesLibrary.pdb
+C:\Users\Artsem\OneDrive\Рабочий стол\(Task)CreatingTypes\CreatingTypes\CreatingTypes\obj\Debug\CreatingTypes.csprojAssemblyReference.cache
+C:\Users\Artsem\OneDrive\Рабочий стол\(Task)CreatingTypes\CreatingTypes\CreatingTypes\obj\Debug\CreatingTypes.csproj.CoreCompileInputs.cache
+C:\Users\Artsem\OneDrive\Рабочий стол\(Task)CreatingTypes\CreatingTypes\CreatingTypes\obj\Debug\CreatingTypes.csproj.CopyComplete
+C:\Users\Artsem\OneDrive\Рабочий стол\(Task)CreatingTypes\CreatingTypes\CreatingTypes\obj\Debug\CreatingTypes.exe
+C:\Users\Artsem\OneDrive\Рабочий стол\(Task)CreatingTypes\CreatingTypes\CreatingTypes\obj\Debug\CreatingTypes.pdb
