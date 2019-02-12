@@ -17,9 +17,9 @@ namespace CreatingTypesLibrary
 
         public virtual double GetDiscountPrice(Customer customer)
         {
-            if (customer.Spent < 1000)
+            if (customer.Spent < 500)
                 return Price;
-            if (customer.Spent < 3000)
+            if (customer.Spent < 1000)
                 return Price * 0.95;
             return Price * 0.9;
         }

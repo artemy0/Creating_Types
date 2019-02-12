@@ -1,5 +1,6 @@
 ﻿using System;
 using CreatingTypesLibrary;
+using CreatingTypesLibrary.Products;
 
 namespace CreatingTypes
 {
@@ -9,7 +10,8 @@ namespace CreatingTypes
         {
             //Creating a store, filling it with users and products.
             Customer[] customers = new Customer[] { new Customer("Artem", "100 Victoria St", 0.0), new Customer("Gleb", "115 Buckingham Palace Rd", 1000), new Customer("Bil", "51 Piccadilly", 500) };
-            Product[] products = new Product[] { new Product("bread", 4.5, "Belarus"), new Product("milk", 3, "Belarus"), new Product("butter", 8, "Ukraine"), new Product("meat", 18, "Russia") };
+            Product[] products = new Product[] { new Food("bread", 4.5, "Belarus", DateTime.Now.AddDays(14)), new Food("milk", 3, "Belarus", DateTime.Now.AddDays(7)), new Food("butter", 8, "Ukraine",DateTime.Now.AddDays(30)),
+                                                 new Food("meat", 18, "Russia", DateTime.Now.AddDays(14)), new Clothes("shirt", 25, "Belarus", "L"), new Product("scissors", 10, "USA") };
             Shop shop = new Shop("Almi", customers, products);
 
             Console.WriteLine($"Welcome to the {shop.Name} shop.");
@@ -35,11 +37,7 @@ namespace CreatingTypes
                                 continueIteration = false;
                             break;
                         case 2:
-                            Console.Write("\nSelect name: ");
-                            string name = Console.ReadLine();
-                            Console.Write("Select addres: ");
-                            string addres = Console.ReadLine();
-                            customer = new Customer(name, addres, 0.0);
+                            customer = Customer.CreateCustomerManually();
                             shop.AddCustomer(customer);
                             if (customer != null)
                                 continueIteration = false;
